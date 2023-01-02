@@ -59,7 +59,6 @@ public class Main {
 		while (repeat){ 		 //as long as repeat is true program will re-start
 		printMenu();			// calls printMenu method
 		
-	
 			
 			switch(choice) {
 				case 1: 
