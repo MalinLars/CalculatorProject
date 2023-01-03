@@ -1,6 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-public class Main {
+public class Start {
 	
 	static double firstNumber;
 	static double secondNumber;
@@ -44,8 +44,7 @@ public class Main {
 				System.out.println("You can only use numbers. Try again!");
 				}
 			
-			}
-			while (error);	
+			}while (error);
 		
 	}
 
@@ -63,7 +62,7 @@ public class Main {
 			switch(choice) {
 				case 1: 
 					askUserInput();
-					System.out.println("Result: " +firstNumber+ " - " +secondNumber+ " = " +myCalculator.addition(firstNumber, secondNumber));
+					System.out.println("Result: " +firstNumber+ " + " +secondNumber+ " = " +myCalculator.addition(firstNumber, secondNumber));
 					break;
 					
 				case 2:
