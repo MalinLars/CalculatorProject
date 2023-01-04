@@ -11,35 +11,33 @@ public class Calculator {
 		/*
 		 * Methods for calculating the result
 		 */
-	
 		public double addition(double firstNumber, double secondNumber) {
 			result = firstNumber + secondNumber;
 			memoryStorage(result);
-			return result;
-			
+			return result;	
 		}
+		
 		public double subtraction(double firstNumber, double secondNumber) {
 			result = firstNumber - secondNumber;
 			memoryStorage(result);
 			return result;
-			
 		}
+		
 		public double multiplication(double firstNumber, double secondNumber) {
 			result = firstNumber * secondNumber;
 			memoryStorage(result);
 			return result;
-			
 		}
+		
 		public double division(double firstNumber, double secondNumber) {
 			result  = firstNumber / secondNumber;
 			memoryStorage(result);
 			return result;	
 		}
 		
-			/*
-			 *Methods for memory function
-			 */
-		
+		/*
+		 *Methods for memory function
+		 */
 		public void memoryStorage(double result) {
 			memoryList.add(result);
 		}
