@@ -7,9 +7,11 @@ public class Calculator {
 	public Calculator() {
 		memoryList = new ArrayList <Double> ();
 	}
+		
 		/*
 		 * Methods for calculating the result
 		 */
+	
 		public double addition(double firstNumber, double secondNumber) {
 			result = firstNumber + secondNumber;
 			memoryStorage(result);
@@ -34,6 +36,10 @@ public class Calculator {
 			return result;	
 		}
 		
+			/*
+			 *Methods for memory function
+			 */
+		
 		public void memoryStorage(double result) {
 			memoryList.add(result);
 		}
@@ -41,7 +47,7 @@ public class Calculator {
 		public void printMemory() {
 			for (int i = 0; i < memoryList.size(); i++) {
 			}
-			System.out.print("Stored values are: " +memoryList);
+			System.out.print("Stored values are: " +memoryList+ "\n");
 		}
 	
 		public void clearMemory() {
