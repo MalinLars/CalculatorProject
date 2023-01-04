@@ -41,7 +41,7 @@ public class Calculator {
 		public void printMemory() {
 			for (int i = 0; i < memoryList.size(); i++) {
 			}
-			System.out.print("Stored values are: " +memoryList+ "\n");
+			System.out.print("Stored values are: " +memoryList);
 		}
 	
 		public void clearMemory() {
